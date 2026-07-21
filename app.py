@@ -10,7 +10,7 @@ class Release2Calculator:
         self.equation = tk.StringVar()
         
         # Configure grid weight so window elements resize dynamically
-        for i in range(10):
+        for i in range(6):
             self.root.rowconfigure(i, weight=1)
         for j in range(4):
             self.root.columnconfigure(j, weight=1)
